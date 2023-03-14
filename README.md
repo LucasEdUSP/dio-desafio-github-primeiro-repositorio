@@ -19,7 +19,7 @@ Repositório criado para o Desafio de Projeto.
  - Feito o donwload, clique para abrir o executável;
  - Durante a instalação, deixe as opções marcadas:
  - [x] Git Bash Here
- - [x] Git GUI HerE
+ - [x] Git GUI Here
  - Como editor padrão do Git, deixe marcada a opção **"VIM"**;
  - Quanto ao nome da branch inicial do git, marque a opção **"Let Git decide"**
  - Na parte de configurar as conversões de final de linha, a primeira opção ("Checkou Windows-style, commit Unix-style line endings") é para os usuários de **Windows**, e a segunda opção ("Checkout as-is, commit Unix-style line endings") são para usuários de **Linux** 🐧;
