@@ -9,7 +9,7 @@ Repositório criado para o Desafio de Projeto.
 # Você vai precisar:
 
  - Instalar o [Git](https://git-scm.com/) no seu computador;
- - Criar uma conta no GitHub.
+ - Criar uma conta no [GitHub](https://github.com/).
 
 1. Instalando o Git (no Windows):
 
