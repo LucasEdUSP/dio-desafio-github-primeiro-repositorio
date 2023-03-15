@@ -38,10 +38,22 @@ Repositório criado para o Desafio de Projeto.
  - Caso seja a primeira vez que está usando o git, você vai ter que configurar um usuário, para isso, digite `git config --global user.email "seu email aqui"` após isso digitar a seguinte linha `git config --global user.name seu_nome`;
 
 3. Criando arquivos para o repositório:
+
  - Dentro da pasta `workspace` crie um arquivo de texto com extensão `.md`.;
  - Crie o arquivo com o texto que desejar;
  - Após isso, vamos adicionar os arquivos digitando `git add *` e `git commit -m "commit inicial"`;
 
 4. Lidando com o GitHub:
 
+ - Va no site do [GitHub](https://github.com/) e clique no botão "Sign Up" para entrar na sua conta ou criar uma nova;
+ - OBS: é interessante que você tenha o mesmo nome e email configurados no Git e no GitHub, pois isso ajuda na hora de realcionar os commits que você fez, para verificar como estão configurados esses dados no seu Git, você pode digitar `git config --list` onde ele vai devolver uma lista com diversos dados, entre eles o email e nome de usuário que você está usando;
+ - Caso seja necessário alterar, digite `git config --global --unset user.email` para o email e `git config --global --unset user.name` para o *user name*;
+ - Após isso, é só configurar de novo esses dados usando `git config --global user.email "seu email aqui"` e `git config --global user.name seu_nome`;
+ - Agora para verificar seus repositórios, clique no canto superior direito e escolha a opção "Seus repositórios" (ou *"Your Repositories"*);
+ - Para criar um novo repositório, clique no botão verde escrito *"New"*:
+ - Adicione um nome, uma descrição, decida se ele será público ou privado e se ele terá um arquivo de README ou não e clique em *"Create Repository"*;
+ - Agora copie o link do repositório remoto (ele vai ser parecido com algo como: `https://github/SeuNomeDeUsuario/NomeDaPasta.git`);
+ - Agora iremos apontar o nosso repositório local da nossa máquina para o repositório remoto do Git, para isso devemos digitar: `git remote add origin endereco_que_copiou_do_github.git` e depois `git push origin master`.
+
+Fim do tutorial 😃
 
