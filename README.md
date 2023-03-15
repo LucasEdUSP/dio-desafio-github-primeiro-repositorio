@@ -22,15 +22,15 @@ Repositório criado para o Desafio de Projeto.
  - [x] Git GUI Here
  - Como editor padrão do Git, deixe marcada a opção **"VIM"**;
  - Quanto ao nome da branch inicial do git, marque a opção **"Let Git decide"**
- - Na parte de configurar as conversões de final de linha, a primeira opção ("Checkou Windows-style, commit Unix-style line endings") é para os usuários de **Windows**, e a segunda opção ("Checkout as-is, commit Unix-style line endings") são para usuários de **Linux** 🐧;
- - **IMPORTANTE:** Na hora de escolher o credential helper, é necessário selecionar a opção **"Git Credential Manager Core"** para se evitar problemas futuros na hora de realizar operações no Git, pois a opção **"Git Credential Manager"** se trata de uma opção defasada.
+ - Na parte de configurar as conversões de final de linha, a primeira opção **("Checkout Windows-style, commit Unix-style line endings")** é para os usuários de **Windows**, e a segunda opção **("Checkout as-is, commit Unix-style line endings")** são para usuários de **Linux** 🐧;
+ - **IMPORTANTE:** Na hora de escolher o *credential helper*, é necessário selecionar a opção **"Git Credential Manager Core"** para se evitar problemas futuros na hora de realizar operações no Git, pois a opção **"Git Credential Manager"** se trata de uma opção defasada.
  - Após essas ressalvas, pode-se prosseguir com a instalação normalmente.
  - *Et Voilà!*, o Git está instalado!
 
 2. Criando um repositório usando Git:
  
- - Vá no diretório C:/ do seu computador e crie uma pasta chamada `workspace;
- - Dentro dessa pasta, clique com o botão direito do mouse e selecione a opção "Git Bash Here";
+ - Vá no diretório C:/ do seu computador e crie uma pasta chamada `workspace`;
+ - Dentro dessa pasta, clique com o botão direito do mouse e selecione a opção **"Git Bash Here"**;
  - Na janela que se abrir, digite `cd workspace` para entrar na pasta do workspace;
  - Para criar um repositório, digite `mkdir nome_do_repositório`;
  - Novamente digite `cd nome_do_repositório` para acessar o repositório;
@@ -45,13 +45,13 @@ Repositório criado para o Desafio de Projeto.
 
 4. Lidando com o GitHub:
 
- - Va no site do [GitHub](https://github.com/) e clique no botão "Sign Up" para entrar na sua conta ou criar uma nova;
- - OBS: é interessante que você tenha o mesmo nome e email configurados no Git e no GitHub, pois isso ajuda na hora de realcionar os commits que você fez, para verificar como estão configurados esses dados no seu Git, você pode digitar `git config --list` onde ele vai devolver uma lista com diversos dados, entre eles o email e nome de usuário que você está usando;
+ - Va no site do [GitHub](https://github.com/) e clique no botão **"Sign Up"** para entrar na sua conta ou criar uma nova;
+ - **OBS:** é interessante que você tenha o mesmo nome e email configurados no Git e no GitHub, pois isso ajuda na hora de relacionar os commits que você fez, para verificar como estão configurados esses dados no seu Git, você pode digitar `git config --list` onde ele vai devolver uma lista com diversos dados, entre eles o email e nome de usuário que você está usando;
  - Caso seja necessário alterar, digite `git config --global --unset user.email` para o email e `git config --global --unset user.name` para o *user name*;
  - Após isso, é só configurar de novo esses dados usando `git config --global user.email "seu email aqui"` e `git config --global user.name seu_nome`;
  - Agora para verificar seus repositórios, clique no canto superior direito e escolha a opção "Seus repositórios" (ou *"Your Repositories"*);
  - Para criar um novo repositório, clique no botão verde escrito *"New"*:
- - Adicione um nome, uma descrição, decida se ele será público ou privado e se ele terá um arquivo de README ou não e clique em *"Create Repository"*;
+ - Adicione um nome, uma descrição, decida se ele será público ou privado e se ele terá um arquivo de **README** ou não e clique em *"Create Repository"*;
  - Agora copie o link do repositório remoto (ele vai ser parecido com algo como: `https://github/SeuNomeDeUsuario/NomeDaPasta.git`);
  - Agora iremos apontar o nosso repositório local da nossa máquina para o repositório remoto do Git, para isso devemos digitar: `git remote add origin endereco_que_copiou_do_github.git` e depois `git push origin master`.
 
